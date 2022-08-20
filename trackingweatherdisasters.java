@@ -22,7 +22,7 @@ public static void eastCoast(String[] weatherDisaster){
     if weatherDisaster = "flooding":
     System.out.PrintIn("Make sure to be inside when this occurs, have any important belongings inside. If flooding state is terrible, grab sand bags and cover your home's surroundings with them.")
     if weatherDisaster = "excessive snowing":
-    System.out.PrintIn("Make sure to be inside, wear enough layers, and shovel the surroundings of your home.")
+    System.out.PrintIn("Make sure to be inside, wear enough layers, and shovel the surroundings of your home when conditions are better.")
     else: System.out.PrintIn("Make sure to keep up to date about your weather and stay indoors if any potential weather disasters may occur.")
 }
 
@@ -33,6 +33,8 @@ public static void centralCoast(String[] weatherDisaster){
     System.out.PrintIn("Make sure to be inside when this occurs, have any important belongings inside. If flooding state is terrible, grab sand bags and cover your home's surroundings with them.")
     if weatherDisaster = "hail storms":
     System.out.PrintIn("During this scenario, make sure to find shelter immediately. Based on severity, the size of hail debris can cause damage to home and automobile's roofs.")
+    if weatherDisaster = "excessive snowing":
+    System.out.PrintIn("Make sure to be inside, wear enough layers, and shovel the surroundings of your home when conditions are better.")
    else: System.out.PrintIn("Make sure to keep up to date about your weather and stay indoors if any potential weather disasters may occur.")
     
 }
